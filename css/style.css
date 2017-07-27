@@ -1,7 +1,7 @@
 
 body {
 		background: #ffffff;
-    font-family: 'Lora', serif;
+    font-family: 'Zilla Slab', serif;
     font-style: normal;
 		font-weight: 300;
     overflow-x: hidden;
@@ -13,7 +13,7 @@ body {
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0.5px;
@@ -45,11 +45,16 @@ h4 {
 }
 
 p {
-    color: #777;
-    font-size: 15px;
+    color: #3e3e3e;
+    font-size: 16px;
     font-weight: 300;
-    line-height: 26px;
+    line-height: 28px;
     letter-spacing: 0.2px;
+}
+
+li {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .btn-success:focus {
@@ -196,7 +201,7 @@ a:hover, a:active, a:focus {
 
 .navbar-default .navbar-brand {
   color: #555;
-  font-family: 'Merriweather', serif;
+  font-family: 'Zilla Slab', serif;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -310,7 +315,7 @@ a:hover, a:active, a:focus {
   border: 2px solid #ffffff;
   border-radius: 100px;
   color: #444;
-  font-family: 'Merriweather', serif;
+  font-family: 'Zilla Slab', serif;
   font-size: 10px;
   font-weight: bold;
   letter-spacing: 2px;
